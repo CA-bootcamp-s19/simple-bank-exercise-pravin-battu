@@ -19,6 +19,7 @@ contract SimpleBank {
     mapping (address => bool) public enrolled;
 
     /* Let's make sure everyone knows who owns the bank. Use the appropriate keyword for this*/
+    /* Using payable here to match latest Solidity version */
     address payable public owner;
     
     //
